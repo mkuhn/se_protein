@@ -1,0 +1,318 @@
+# !C0002170	ENSP00000186982	COX2 overexpression leads to alopecia in mice http://cancerres.aacrjournals.org/cgi/content/full/62/9/2516
+# !C0002792	ENSP00000280155	epinephrine is used as treatment against hypersensitivity reactions
+# !C0002792	ENSP00000320944	epinephrine is used as treatment against hypersensitivity reactions
+# !C0003123	ENSP00000320944@act	activation of alpha 2-adrenoceptors in the hypothalamic paraventricular nucleus increases eating http://www.ncbi.nlm.nih.gov/pubmed/11054588
+# !C0009806	ENSP00000303199	ENSP00000320944@act	alpha2 agonists alter gut motility; SNPs in alpha2 adrenergic receptors corr. w/ constipation	http://ajpgi.physiology.org/cgi/content/full/281/6/G1468	http://www.ncbi.nlm.nih.gov/pubmed/15138209
+# !C0009806	ENSP00000306662	ENSP00000320944@act	alpha2 agonists alter gut motility; SNPs in alpha2 adrenergic receptors corr. w/ constipation	http://ajpgi.physiology.org/cgi/content/full/281/6/G1468	http://www.ncbi.nlm.nih.gov/pubmed/15138209
+# !C0009806	ENSP00000320944	ENSP00000320944@act	alpha2 agonists alter gut motility; SNPs in alpha2 adrenergic receptors corr. w/ constipation	http://ajpgi.physiology.org/cgi/content/full/281/6/G1468	http://www.ncbi.nlm.nih.gov/pubmed/15138209
+# !C0009806	ENSP00000348729	ENSP00000320944@act	alpha2 agonists alter gut motility; SNPs in alpha2 adrenergic receptors corr. w/ constipation	http://ajpgi.physiology.org/cgi/content/full/281/6/G1468	http://www.ncbi.nlm.nih.gov/pubmed/15138209
+# !C0011168	ENSP00000320944@act	activation of alpha 2-adrenoceptors in the hypothalamic paraventricular nucleus increases eating http://www.ncbi.nlm.nih.gov/pubmed/11054588
+# !C0011175	ENSP00000257763	HTR1 knockout caused increased drinking behavior in mice
+# !C0011991	D017465@act_ENSP00000234961@act	known to inhibit diarrhea	http://jpet.aspetjournals.org/cgi/content/abstract/249/1/83
+# !C0011991	D017473@act_ENSP00000265572@act	known to inhibit diarrhea	http://jpet.aspetjournals.org/cgi/content/abstract/249/1/83
+# !C0011991	ENSP00000306662@inh	ENSP00000306662@act	alpha2 agonists can ameliorate diarrhea	http://ajpgi.physiology.org/cgi/content/full/273/5/G997
+!C0013295	D011954@act	dopamine agonists offer protection from ulcers in rats	http://www.ncbi.nlm.nih.gov/pubmed/4018137
+# !C0015230	ENSP00000280155@act_ENSP00000303199@act_ENSP00000306662@act_ENSP00000320944@act_ENSP00000348729@act_ENSP00000305372@inh	Epinephrine (=agonist) relieves rashes; beta-blockers cause rashes	http://www.mayoclinic.com/health/drug-information/DR602095	http://www.ncbi.nlm.nih.gov/pubmed/2865950
+# !C0015967	D051545@inh_ENSP00000354612@inh	well-known analgesic effect
+# !C0015967	ENSP00000280155@act	alpha2 adrenergic agonists cause hypothermia, which is reduced in a2 knockout mice http://www.ncbi.nlm.nih.gov/pubmed/12726820
+# !C0018681	D011451@inh_D051545@inh_ENSP00000354612@inh	well-known analgesic effect
+# !C0018681	D011451_D051545_ENSP00000354612	well-known analgesic effect
+# !C0018681	D051545@inh_ENSP00000354612@inh	well-known analgesic effect
+# !C0018681	D051545_ENSP00000354612	well-known analgesic effect
+# !C0018681	D051546_ENSP00000186982	well-known analgesic effect
+# !C0018681	ENSP00000186982	well-known analgesic effect
+# !C0018681	ENSP00000186982@inh	well-known analgesic effect
+# !C0019825	ENSP00000280155	unclear, but there are connections between adrenergic receptors and bronchoconstriction
+# !C0019825	ENSP00000320944	unclear, but there are connections between adrenergic receptors and bronchoconstriction
+# !C0019825	ENSP00000348729	unclear, but there are connections between adrenergic receptors and bronchoconstriction
+# !C0020456	ENSP00000219891@inh	hypoglycemia is seen in SLC12A1 mutant mice
+# !C0020517	ENSP00000280155	epinephrine is used as treatment against hypersensitivity reactions
+# !C0020517	ENSP00000303199	epinephrine is used as treatment against hypersensitivity reactions
+# !C0020517	ENSP00000306662	epinephrine is used as treatment against hypersensitivity reactions
+# !C0020517	ENSP00000320944	epinephrine is used as treatment against hypersensitivity reactions
+# !C0020517	ENSP00000347299@inh	anti-histamines are known to relieve allergic reactions
+# !C0020517	ENSP00000348729	epinephrine is used as treatment against hypersensitivity reactions
+# !C0020538	ENSP00000261707@inh	Mice overexpressing SERT develop increased pulmonary pressures http://www.ncbi.nlm.nih.gov/pubmed/18536742
+# !C0020615	ENSP00000258400@inh	serotonin, SSRI and serotonin precursors have hypoglycemic actions http://www.ncbi.nlm.nih.gov/pubmed/2689822 http://www.ncbi.nlm.nih.gov/pubmed/17397876
+# !C0021116	D018342@inh_ENSP00000046967@inh	D018342@act_ENSP00000046967@act	contradicting evidence, alpha2 antagonists have been used against erectile dysfunction	http://content.nejm.org/cgi/content/full/342/24/1802
+# !C0021116	D018343@inh_ENSP00000305372@inh	D018343@act_ENSP00000305372@act	contradicting evidence, alpha2 antagonists have been used against erectile dysfunction	http://content.nejm.org/cgi/content/full/342/24/1802
+# !C0021116	D022702@inh_ENSP00000343782@inh	D022702@act_ENSP00000343782@act	contradicting evidence, alpha2 antagonists have been used against erectile dysfunction	http://content.nejm.org/cgi/content/full/342/24/1802
+# !C0021116	ENSP00000306662@inh	ENSP00000306662@act	contradicting evidence, alpha2 antagonists have been used against erectile dysfunction	http://content.nejm.org/cgi/content/full/342/24/1802
+# !C0021116	ENSP00000320944	ENSP00000320944@act	contradicting evidence, alpha2 antagonists have been used against erectile dysfunction	http://content.nejm.org/cgi/content/full/342/24/1802
+# !C0021116	ENSP00000320944@inh	ENSP00000320944@act	contradicting evidence, alpha2 antagonists have been used against erectile dysfunction	http://content.nejm.org/cgi/content/full/342/24/1802
+!C0027121	ENSP00000262735@act	PPAR-alpha deficient mice have prolonged inflammation response http://www.ncbi.nlm.nih.gov/pubmed/8900274
+# !C0027497	D011969@inh_ENSP00000347299@inh	several histamine antagonists are used as anti-emetics	http://www.ncbi.nlm.nih.gov/pubmed/16688970
+# !C0027497	ENSP00000306490	several muscarinic agonists are used as anti-emetics	http://www.ncbi.nlm.nih.gov/pubmed/16688970
+# !C0027497	ENSP00000306490@inh	several muscarinic antagonists are used as anti-emetics	http://www.ncbi.nlm.nih.gov/pubmed/16688970
+!C0028643	D044346@act	opposite phenotype to hyperesthesia which we showed to be caused by HTR7 receptors
+# !C0030193	D011451@inh_D051545@inh_ENSP00000354612@inh	well-known analgesic effect
+# !C0030193	D011451_D051545_ENSP00000354612	well-known analgesic effect
+# !C0030193	D051545@inh_ENSP00000354612@inh	well-known analgesic effect
+# !C0030193	D051545_ENSP00000354612	well-known analgesic effect
+# !C0030193	D051546_ENSP00000186982	well-known analgesic effect
+# !C0030193	ENSP00000186982	well-known analgesic effect
+# !C0030193	ENSP00000186982@inh	well-known analgesic effect
+!C0032617	ENSP00000316244@act	Serotonin 5-HT(1A)receptor agonist 8-OH DPAT suppressed drinking behavior in rats. http://www.ncbi.nlm.nih.gov/pubmed/11550043
+# !C0033774	D011969@inh_ENSP00000347299@inh	H1 antagonists have been suspected to relieve pruritus, although no suffient clinical trials have been performed	http://www.ncbi.nlm.nih.gov/pubmed/10606058
+# !C0036572	ENSP00000219833	Genetic deletion of the norepinephrine transporter decreases vulnerability to seizures. http://www.ncbi.nlm.nih.gov/pubmed/15911120
+# !C0042109	ENSP00000320944@act	Epinephrine (=agonist) relieves rashes; beta-blockers cause rashes	http://www.mayoclinic.com/health/drug-information/DR602095	http://www.ncbi.nlm.nih.gov/pubmed/2865950
+# !C0042963	D011969@inh_ENSP00000347299@inh	several H1 antagonists are used as anti-emetics	http://www.ncbi.nlm.nih.gov/pubmed/16688970
+!C0043094	D044403_ENSP00000258400	HTR2B knockout mice have decreased body weight
+!C0043094	ENSP00000186982@inh	decreased body weight is a phenotype of PTGS2 mutant mice
+!C0043094	ENSP00000219833@inh	decreased body weight is a phenotype of SLC6A2 mutant mice
+!C0043094	ENSP00000276198@inh_ENSP00000258400@inh	decreased body weight is a phenotype of HTR2 mutant mice
+# !C0392680	ENSP00000306490@inh	muscarine and muscarnic agonists cause bronchoconstriction	http://molpharm.aspetjournals.org/cgi/content/full/64/6/1444
+# !C0700590	ENSP00000320944@inh	ENSP00000320944@act	adrenaline is considered to cause sweating	http://www3.interscience.wiley.com/journal/119660392/abstract
+# C0000737	D011969@inh_ENSP00000347299@inh	"Histamine excites neurones in the human submucous plexus through activation of H1, H2, H3 and H4 receptors"	http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2277025
+# C0001824	ENSP00000280155@inh	ENSP00000280155@act	???
+# C0001824	ENSP00000348729@inh	ENSP00000348729@act	???
+# C0002170	ENSP00000280155@inh	ENSP00000280155@act	related with beta blockers / alopecia
+# C0002170	ENSP00000303199@inh	ENSP00000303199@act	related with beta blockers / alopecia
+# C0002170	ENSP00000306662@inh	ENSP00000306662@act	related with beta blockers / alopecia
+# C0002170	ENSP00000320944@inh	ENSP00000320944@act	related with beta blockers / alopecia
+# C0002170	ENSP00000348729@inh	ENSP00000348729@act	related with beta blockers / alopecia
+# C0003123	ENSP00000320944@act	?
+# C0014457	D051544@act_ENSP00000222982@act_ENSP00000292414@act_ENSP00000337915@act	ENSP00000222982@inh_ENSP00000292414@inh	?candidate to explain
+# C0014457	ENSP00000222982@act_ENSP00000292414@act_ENSP00000337915@act	ENSP00000222982@inh_ENSP00000292414@inh	?
+# C0014457	ENSP00000222982@act_ENSP00000292414@act_ENSP00000337915@act	ENSP00000337915@inh	?
+# C0018681	ENSP00000240132@inh	?
+# C0019825	ENSP00000320944	?
+# C0019825	ENSP00000348729	?
+# C0020517	D017447_ENSP00000327652	?related to:epinephrine is used as treatment against hypersensitivity reactions
+# C0020517	D017448_ENSP00000347474	?related to:epinephrine is used as treatment against hypersensitivity reactions
+# C0020517	D044405_ENSP00000276198	?related to:epinephrine is used as treatment against hypersensitivity reactions
+# C0020517	D050638_ENSP00000176183	?related to:epinephrine is used as treatment against hypersensitivity reactions
+# C0020517	ENSP00000261668	?related to:epinephrine is used as treatment against hypersensitivity reactions
+# C0020517	ENSP00000261668@inh	?related to:epinephrine is used as treatment against hypersensitivity reactions
+# C0022346	D050638@inh_ENSP00000176183@inh	D050638@act_ENSP00000176183@act	most likely caused by drugs sharing the same scaffold as chlorpromazine and thus related to metabolization http://www.ncbi.nlm.nih.gov/pubmed/3183354
+# C0022346	D050641@inh_ENSP00000306129@inh	D050641@act_ENSP00000306129@act	most likely caused by drugs sharing the same scaffold as chlorpromazine and thus related to metabolization http://www.ncbi.nlm.nih.gov/pubmed/3183354
+# C0022346	ENSP00000280155@inh	ENSP00000280155@act	most likely caused by drugs sharing the same scaffold as chlorpromazine and thus related to metabolization http://www.ncbi.nlm.nih.gov/pubmed/3183354
+# C0022346	ENSP00000295881@inh	ENSP00000295881@act	most likely caused by drugs sharing the same scaffold as chlorpromazine and thus related to metabolization http://www.ncbi.nlm.nih.gov/pubmed/3183354
+# C0022346	ENSP00000303199@inh	ENSP00000303199@act	most likely caused by drugs sharing the same scaffold as chlorpromazine and thus related to metabolization http://www.ncbi.nlm.nih.gov/pubmed/3183354
+# C0022346	ENSP00000306662@inh	ENSP00000306662@act	most likely caused by drugs sharing the same scaffold as chlorpromazine and thus related to metabolization http://www.ncbi.nlm.nih.gov/pubmed/3183354
+# C0022346	ENSP00000320944@inh	ENSP00000320944@act	most likely caused by drugs sharing the same scaffold as chlorpromazine and thus related to metabolization http://www.ncbi.nlm.nih.gov/pubmed/3183354
+# C0022346	ENSP00000327652@inh	ENSP00000327652@act	most likely caused by drugs sharing the same scaffold as chlorpromazine and thus related to metabolization http://www.ncbi.nlm.nih.gov/pubmed/3183354
+# C0022346	ENSP00000348729@inh	ENSP00000348729@act	most likely caused by drugs sharing the same scaffold as chlorpromazine and thus related to metabolization http://www.ncbi.nlm.nih.gov/pubmed/3183354
+# C0023530	D018343@inh_ENSP00000305372@inh	D018343@act_ENSP00000305372@act	???
+# C0023530	ENSP00000280155@inh	ENSP00000280155@act	???
+# C0023530	ENSP00000303199@inh	ENSP00000303199@act	???
+# C0023530	ENSP00000306662@inh	ENSP00000306662@act	???
+# C0023530	ENSP00000320944@inh	ENSP00000320944@act	???
+# C0023530	ENSP00000348729@inh	ENSP00000348729@act	???
+# C0033117	ENSP00000280155@inh	ENSP00000280155@act	rel: alpha 1 blockade is a proposed mechanism of action for priapism	http://www.ncbi.nlm.nih.gov/pubmed/11939691
+# C0033117	ENSP00000280155@inh	ENSP00000280155@act rel: alpha 1 blockade is a proposed mechanism of action for priapism	http://www.ncbi.nlm.nih.gov/pubmed/11939691
+# C0033117	ENSP00000320944@inh	ENSP00000320944@act rel: alpha 1 blockade is a proposed mechanism of action for priapism	http://www.ncbi.nlm.nih.gov/pubmed/11939691
+# C0042510	D044346_ENSP00000313661	D050637_ENSP00000295881	a dopamine agonist has been shown to reduce VF	http://www.ncbi.nlm.nih.gov/pubmed/7260985
+# C0042510	D044346_ENSP00000313661	D050638_ENSP00000176183	a dopamine agonist has been shown to reduce VF	http://www.ncbi.nlm.nih.gov/pubmed/7260985
+# C0042510	D044346_ENSP00000313661	ENSP00000347474	a dopamine agonist has been shown to reduce VF	http://www.ncbi.nlm.nih.gov/pubmed/7260985
+# C0242429	ENSP00000280155@inh	ENSP00000280155@act	?
+# C0349506	ENSP00000280155@inh	ENSP00000280155@act	? no mechanism known
+# C0349506	ENSP00000306662@inh	ENSP00000306662@act	? no mechanism known
+# C0349506	ENSP00000320944@inh	ENSP00000320944@act	? no mechanism known
+# C0349506	ENSP00000348729@inh	ENSP00000348729@act	? no mechanism known
+# C1527304	D050638@inh_ENSP00000176183@inh	D050638@act_ENSP00000176183@act	?
+# C1527304	ENSP00000295881@inh	ENSP00000295881@act	?
+*C0014518	ENSP00000186982@inh	thought to be a hypersensitivity reaction	http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1306340/
+*C0025290	ENSP00000186982@inh	thought to be a hypersensitivity reaction	http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1306340/
+*C0030807	D007703@inh	ACE inhibitors seem to cause "autoantibodies directed to an antigen of the cytoplasm of the superficial epidermal keratinocytes"	http://www.ncbi.nlm.nih.gov/pubmed/20563876
+*C0036416	ENSP00000292252	thought to be a reaction to bisphosphonates mediated via immune system	http://www.ncbi.nlm.nih.gov/pubmed/16108245
+-C0004095	ENSP00000241946@act	most likely due to topical administration as eye drops of prostaglandin analogs
+-C0022081	ENSP00000241946@act	most likely due to topical administration as eye drops of prostaglandin analogs
+-C0022568	ENSP00000241946@act	most likely due to topical administration as eye drops of prostaglandin analogs
+-C0033117	ENSP00000261707@inh	probably mediated via adrenergic receptors
+-C0042164	ENSP00000241946@act	most likely due to topical administration as eye drops of prostaglandin analogs
+-C0152227	ENSP00000241946@act	most likely due to topical administration as eye drops of prostaglandin analogs
+-C0235267	ENSP00000241946@act	most likely due to topical administration as eye drops of prostaglandin analogs
+-C0242429	D050638@inh_ENSP00000176183@inh	D050638@act_ENSP00000176183@act	secondary SE caused by infections due to agranulocytosis
+-C0242429	D051544@act_ENSP00000222982@act_ENSP00000292414@act_ENSP00000337915@act	ENSP00000222982@inh_ENSP00000292414@inh	secondary SE caused by infections due to agranulocytosis
+-C0242429	ENSP00000280155@inh	ENSP00000280155@act	secondary SE caused by infections due to agranulocytosis
+-C0242429	ENSP00000295881@inh	ENSP00000295881@act	secondary SE caused by infections due to agranulocytosis
+-C0242429	ENSP00000303199@inh	ENSP00000303199@act	secondary SE caused by infections due to agranulocytosis
+-C0242429	ENSP00000306662@inh	ENSP00000306662@act	secondary SE caused by infections due to agranulocytosis
+-C0242429	ENSP00000320944@inh	ENSP00000320944@act	secondary SE caused by infections due to agranulocytosis
+-C0242429	ENSP00000348729@inh	ENSP00000348729@act	secondary SE caused by infections due to agranulocytosis
+.C0011175	ENSP00000261707	cause not known
+.C0011880	ENSP00000287907@act_ENSP00000316244@act	cause not known
+.C0012569	D011963@act	cause not known
+.C0013390	D050484	cause not known
+.C0013592	D047629_D047629@act	cause not known
+.C0013604	ENSP00000316244	cause not known
+.C0015695	ENSP00000289753	cause not known
+.C0017086	D050638@act	cause not known
+.C0019158	ENSP00000354612_ENSP00000186982	cause not known
+.C0020514	ENSP00000261668	cause not known
+.C0022104	ENSP00000347474@act	cause not known
+.C0022346	ENSP00000228858	cause not known
+.C0022346	ENSP00000261707@inh	cause not known
+.C0022346	ENSP00000354612@inh	cause not known
+.C0023067	ENSP00000257763@act	cause not known
+.C0025289	ENSP00000354612_ENSP00000186982	cause not known
+.C0025874	ENSP00000206249@act	cause not known
+.C0027424	ENSP00000276198	cause not known
+.C0027769	ENSP00000313661@act	cause not known
+.C0028738	D011963@act	cause not known
+.C0032617	ENSP00000219833	cause not known
+.C0032708	ENSP00000274629_D051038_D051640	cause not known
+.C0035078	ENSP00000295897	cause not known
+.C0035334	D011954@inh_ENSP00000295881@inh	ENSP00000295881@act	a mechanism for pigmentary retinopathy involving dopamine receptor blockade has been proposed: http://www.ncbi.nlm.nih.gov/pubmed/12152801
+.C0037036	ENSP00000313661	cause not known
+.C0037672	ENSP00000347474@act	cause not known
+.C0037763	D017473@act	cause not known
+.C0038379	D011963@act	cause not known
+.C0042420	ENSP00000347474@act	cause not known
+.C0162566	D051038_D051640	cause not known
+.C0162835	ENSP00000231509	cause not known
+.C0232605	D044346	cause not known
+.C0235660	D011960@act	cause not known
+.C0241353	ENSP00000219833@inh	cause not known
+.C0262385	D050638	cause not known
+.C0314719	ENSP00000261707_ENSP00000289753_ENSP00000257763@act	cause not known
+?C0002170	ENSP00000261707@inh	alopecia has been recognized as a rare side effect of SSRIs	http://www.ncbi.nlm.nih.gov/pubmed/16783834 
+?C0003873	ENSP00000261707@inh	treatment with SSRI has been shown to speed up arthritic inflammation	http://www.ncbi.nlm.nih.gov/pubmed/9825746
+?C0006325	ENSP00000261707@inh	bruxism has been described as SSRI-induced http://www.ncbi.nlm.nih.gov/pubmed/10665633
+?C0006325	ENSP00000295881@act	Hypersensitive presynaptic dopamine receptors have been implicated in bruxism http://www.ncbi.nlm.nih.gov/pubmed/15749418
+?C0006325	ENSP00000348729	bruxism is reduced by alpha adrenergic agonism http://www.ncbi.nlm.nih.gov/pubmed/16553016
+?C0010692	ENSP00000354612_ENSP00000186982	NSAIDs are known to be associated with nonbacterial cystitits	http://www.arhp.org/Publications-and-Resources/Clinical-Proceedings/Screening-Treatment-and-Management-of-ICPBS/Diagnosis
+?C0011124	ENSP00000261707	SSRI-Associated Sexual Dysfunction has been described, but cause is unclear	http://ajp.psychiatryonline.org/cgi/content/full/163/9/1504
+?C0011570	D018342@inh_ENSP00000046967@inh	D018342@act_ENSP00000046967@act	the association of mental depression and beta blockers has been disputed, connection unclear http://www.ncbi.nlm.nih.gov/pubmed/12117400
+?C0011570	D018343@inh_ENSP00000305372@inh	D018343@act_ENSP00000305372@act	the association of mental depression and beta blockers has been disputed, connection unclear http://www.ncbi.nlm.nih.gov/pubmed/12117400
+?C0011570	D022702@inh_ENSP00000343782@inh	D022702@act_ENSP00000343782@act	the association of mental depression and beta blockers has been disputed, connection unclear http://www.ncbi.nlm.nih.gov/pubmed/12117400
+?C0011616	ENSP00000261707	the serotonin system contributes to contact dermatitis http://www.ncbi.nlm.nih.gov/pubmed/17721644
+?C0014743	D011960@act	changes in hormone levels e.g. during pregnancy have been proposed to cause erythema nodosum	http://www.aafp.org/afp/2007/0301/p695.html
+?C0015672	D050484_ENSP00000219833	NE reuptake inhibitors have been proposed to treat "chronic fatigue syndrome" and Fibromyalgia (symptome: fatigue)	http://www.ncbi.nlm.nih.gov/pubmed/18537652	http://www.ncbi.nlm.nih.gov/pubmed/18336891
+?C0018916	D011960@act	estrogen has been implicated in hemangioma http://www.ncbi.nlm.nih.gov/pubmed/18434035
+?C0020565	ENSP00000261707	breast enlargement has been linked to SSRI, but mechanism is unknown, potentially via dopaminergic system	http://www.ncbi.nlm.nih.gov/pubmed/9479619
+?C0021116	ENSP00000261668_ENSP00000261668@inh	serotonin receptors are involved in penile tissue contraction	http://www.ncbi.nlm.nih.gov/pubmed/12934054
+?C0021116	ENSP00000261707	SSRI-Associated Sexual Dysfunction has been described, but cause is unclear	http://ajp.psychiatryonline.org/cgi/content/full/163/9/1504
+?C0021141	ENSP00000261707	SIADH has been linked to SSRIs, but no mechanism is known	http://www.ncbi.nlm.nih.gov/pubmed/8804257
+?C0027707	D051545_ENSP00000354612_D011451_ENSP00000186982_ENSP00000186982@inh_D051545@inh_ENSP00000354612@inh_D011451@inh	while thought to be a hypersensitivity reaction, PTGS1/2 knockout mice have kidney deformities	MGI
+?C0027726	D051545_ENSP00000354612_D011451_ENSP00000186982_ENSP00000186982@inh_D051545@inh_ENSP00000354612@inh_D011451@inh	while thought to be a hypersensitivity reaction, PTGS1/2 knockout mice have kidney deformities	MGI
+?C0027947	D013940	dose-dependent SE of TYMS inhibitor, related to bone marrow damage? http://www.ncbi.nlm.nih.gov/pubmed/7595747
+?C0030193	D050483_ENSP00000270349	dopamine reuptake inh. have been shown to be analgesic	http://www.ncbi.nlm.nih.gov/pubmed/11706096
+?C0030305	ENSP00000186982@inh	there is a risk for acute pancreatitis patients taking NSAIDs	http://www.mdpi.com/1424-8247/3/3/558/
+?C0032708	ENSP00000206249	Oral contraceptives and postmenopausal estrogen replacement therapy are recognized as risk factors for the development of porphyria cutanea tarda (PCT) in women. http://www.ncbi.nlm.nih.gov/pubmed/11128750
+?C0033117	ENSP00000303199@inh_ENSP00000306662@inh_ENSP00000348729@inh	alpha 1 blockade is a proposed mechanism of action for priapism	http://www.ncbi.nlm.nih.gov/pubmed/11939691
+?C0033117	ENSP00000348729@inh_ENSP00000303199@inh_ENSP00000306662@inh_ENSP00000280155@inh_ENSP00000320944@inh	thought to be related to alpha adrenergic blockade http://www.ncbi.nlm.nih.gov/pubmed/18090503
+?C0040822	ENSP00000261707	tremors are recognized as most common movement disorder of SSRI http://www.ncbi.nlm.nih.gov/pubmed/16297844 loss of serotonin transporters is correlated with onset of tremors in Parkinson's disease http://www.ncbi.nlm.nih.gov/pubmed/18335163
+?C0042024	ENSP00000261668	the serotonergic system is implicated in bladder voiding	http://www.ncbi.nlm.nih.gov/pubmed/11264473
+?C0042133	D011960@act	fibroid growth seems to depend on the hormone estrogen	http://www.nlm.nih.gov/medlineplus/ency/article/000914.htm
+?C0080274	ENSP00000261707_D050486_ENSP00000219833_D050484	both the adrenergic and serotonergic system are implicated in bladder voiding	http://www.ncbi.nlm.nih.gov/pubmed/11264473
+?C0151798	ENSP00000290866@inh	Hepatotoxicity is known to be associated with angiotensin-converting enzyme inhibitors http://www.ncbi.nlm.nih.gov/pubmed/8292107
+?C0151825	ENSP00000313661@act_D044346@act	perhaps related to hyperesthesia which we showed to be caused by HTR7 receptors
+?C0151827	ENSP00000313661@act_D044346@act	perhaps related to hyperesthesia which we showed to be caused by HTR7 receptors
+?C0376356	ENSP00000343877_ENSP00000343877@act	PMS Premenstrual syndrome (PMS) appears to be caused e.g. by fluctuations in levels of circulating estrogen and progesterone	http://www.merck.com/mmpe/sec18/ch244/ch244g.html
+C0000729	ENSP00000354612_ENSP00000186982	related to ulcers
+C0000768	D011954@act_ENSP00000295881@act	dopamine agonists cause fetal malformations in rabbits, which increase in incidence when levodopa is administered concurrently http://www.gsk.com.au/resources.ashx/prescriptionmedicinesproductschilddataproinfo/880/FileName/C044FA5B6DD9B417F6B344DAA4F1E58F/PI_Repreve.pdf
+C0001824	ENSP00000354612_ENSP00000186982	PTGS knockout mice have abnormal platelet and blood phenotypes
+C0002063	ENSP00000219891@inh	highly similar protein SLC12A2 causes alkalosis http://www.ncbi.nlm.nih.gov/pubmed/8640224
+C0002063	ENSP00000219891_D028021	mutations in the Na-K-Cl cotransporter cause hereditary alkalosis	http://www.ncbi.nlm.nih.gov/pubmed/8640224
+C0002170	D018342@inh_ENSP00000046967@inh_D018343@inh_ENSP00000305372@inh_D022702@inh_ENSP00000343782@inh	hair follicles are known to contain beta receptors, beta blockers cause hair loss, beta agonists accelerate hair cycle http://www.ncbi.nlm.nih.gov/pubmed/10594725 http://www.ncbi.nlm.nih.gov/pubmed/11152763
+C0002453	D011954@inh_ENSP00000347474@inh	linked to remove of dopaminergic prolactin inhibition http://books.google.com/books?id=vOQqyNhTDl0C&lpg=PA895&ots=LqXPl2j5_1&dq=gynecomastia%20dopamine&pg=PA896#v=onepage&q=gynecomastia%20dopamine&f=false http://www.ncbi.nlm.nih.gov/pubmed/11739329
+C0002871	ENSP00000186982@inh	gastrointestinal lesions, which are seen in mutant mice, can cause bleeding leading to anemia	http://www.ncbi.nlm.nih.gov/pubmed/8179652
+C0003123	ENSP00000320944@inh	activation of alpha 2-adrenoceptors in the hypothalamic paraventricular nucleus increases eating	http://www.ncbi.nlm.nih.gov/pubmed/11054588
+C0003578	D011957@act_ENSP00000328264@act	opioids can decrease deep breathing, thus have an influence on breathing http://www.merck.com/mmhe/sec04/ch048/ch048a.html
+C0003578	D018079_ENSP00000349000	GABAergic pathways are involved in at least some kinds of apnea	http://www.ncbi.nlm.nih.gov/pubmed/11247962
+C0004134	ENSP00000219833@inh	inactivation of the norepinephrine transporter decreases spontaneous locomotor activity	http://www.ncbi.nlm.nih.gov/pubmed/16893531
+C0004134	ENSP00000264318	a mutation which increases GABA receptor levels causes ataxia http://www.ncbi.nlm.nih.gov/pubmed/19759851
+C0004134	ENSP00000328968@inh	ataxia has been observed as a phenotype in SCN8A mutant mice 
+C0004144	D011957@act_D017473@act_ENSP00000265572@act_ENSP00000328264@act	opioids can decrease deep breathing, leading to atelectasis http://www.merck.com/mmhe/sec04/ch048/ch048a.html
+C0004245	ENSP00000346625	ADRB receptor stimulation influences AV node activity	http://www.ncbi.nlm.nih.gov/pubmed/1348976
+C0005745	ENSP00000343782@inh_ENSP00000305372@inh	blockade of adrenergic receptors in the eye muscles might lead to blepharoptosis http://www.ncbi.nlm.nih.gov/pubmed/17881986
+C0006266	D011943@inh_D018342@inh_ENSP00000046967@inh_D018343@inh_ENSP00000305372@inh_D022702@inh_ENSP00000343782@inh	beta (mainly beta2) agonists are used against bronchospams, blockers are known to cause it	http://en.wikipedia.org/wiki/Albuterol	http://www.ncbi.nlm.nih.gov/pubmed/16787801
+C0008350	D047493@act	PPARA activators decrease bile acid production, increasing the risk for gallstones	http://dx.doi.org/10.1016/j.ics.2004.01.051
+C0009676	D011943@inh_D011943@inh_D018342@inh_ENSP00000046967@inh	D018342@act_ENSP00000046967@act	related to hypotension caused by beta blockers
+C0009806	D011943@inh_D011943@inh_D018342@act_ENSP00000046967@act	activation of beta adrenergic receptors in GI tract changes (slows) motility	http://www.ncbi.nlm.nih.gov/pubmed/1600036
+C0009806	ENSP00000255380@inh	constipation is known to be mediated by M3 antagonism http://www.ncbi.nlm.nih.gov/pubmed/19168050
+C0009806	ENSP00000261707@inh	SLC6A4 mutant mice show a mixed phenotype of diarrhea and constipation http://www.ncbi.nlm.nih.gov/pubmed/11487658
+C0009952	D011954@inh_ENSP00000295881@inh	ENSP00000295881@act	dopamine agonists alleviate seizures, whereas dopamine antagonists cause it http://www.ncbi.nlm.nih.gov/pubmed/8787131
+C0011168	ENSP00000320944@inh	activation of alpha 2-adrenoceptors in the hypothalamic paraventricular nucleus increases eating http://www.ncbi.nlm.nih.gov/pubmed/11054588
+C0013604	ENSP00000288139@inh	edema have been observed in CACNA1S mutant mice
+C0014173	D011960@act	known to be caused by unopposed estrogen stimulation	http://www.ncbi.nlm.nih.gov/pubmed/19905899
+C0015300	D011985@inh_ENSP00000261707@inh	serotonin can induce exophthalmos http://www.springerlink.com/content/g071849027021w13/
+C0015967	D017305_ENSP00000257497	Glucocorticoids induce annexin A1 secretion, which in turn suppresses fever	http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1909025	http://www.nature.com/bjp/journal/v155/n2/full/bjp2008252a.html
+C0016977	D011960@act	estrogen exposure linked to increase in gallbladder disease http://www.ncbi.nlm.nih.gov/pubmed/15657326
+C0016977	D011960@act	Melasma is a facial hyperpigmentation resulting from the stimulation of melanocytes by endogenous or exogenous estrogen. http://www.ncbi.nlm.nih.gov/pubmed/14655805
+C0017152	ENSP00000354612_ENSP00000186982	related to ulcers
+C0017181	ENSP00000354612_ENSP00000186982	related to ulcers
+C0018418	D011954@inh_ENSP00000347474@inh_ENSP00000295881@inh_D050641@inh	linked to removal of dopaminergic prolactin inhibition http://books.google.com/books?id=vOQqyNhTDl0C&lpg=PA895&ots=LqXPl2j5_1&dq=gynecomastia%20dopamine&pg=PA896#v=onepage&q=gynecomastia%20dopamine&f=false http://www.ncbi.nlm.nih.gov/pubmed/11739329
+C0018524	D011957@act_D017473_D017473@act	opiates cause psychotomimetic effects via opioid receptors	http://www.ncbi.nlm.nih.gov/pubmed/6147851
+C0018524	D011963_ENSP00000349000_ENSP00000295454	changes in GABA activity are known to lead to hallucinations	http://www.ncbi.nlm.nih.gov/pubmed/19667317
+?C0018524	D011985_ENSP00000261707	related to serotonin syndrome	http://qjmed.oxfordjournals.org/content/96/9/635.full http://www.ncbi.nlm.nih.gov/pubmed/15784664
+C0018681	D011943@inh_D018343@inh_ENSP00000305372@inh	beta blocker have been used to prevent migraine headaches	http://www.ncbi.nlm.nih.gov/pubmed/16095268
+C0018802	D015220@inh_ENSP00000288139@inh	calcium channels are involved in cardiac diseases http://www.jci.org/articles/view/27167
+C0018802	ENSP00000328968@inh	SCN5A mutations increase the rate of heart failure http://www.ncbi.nlm.nih.gov/pubmed/15671429
+C0018926	ENSP00000354612_ENSP00000186982	related to ulcers
+?C0019521	D011985_ENSP00000313661@act	drugs affecting the serotonin system (both agonists and antagonists) have been used to treat hiccups http://www.ncbi.nlm.nih.gov/pubmed/19555801 http://www.ncbi.nlm.nih.gov/pubmed/15083300
+C0020437	ENSP00000343925_ENSP00000343925	estrogen is known to have an effect on calcium concentration http://www.ncbi.nlm.nih.gov/pubmed/17942777
+C0020453	ENSP00000313661@act_D044346@act	shown by us to be caused via the related HTR7 receptor
+C0020615	D015220@inh_ENSP00000318798@inh	calcium channel mutations cause hypoglycemia http://www.ncbi.nlm.nih.gov/pubmed/10449331
+C0020621	D011943@act_D018342@act_ENSP00000046967@act_D018343@act_ENSP00000305372@act_D022702@act_ENSP00000343782@act	known effect of beta agonists like epinephrine http://www.ncbi.nlm.nih.gov/pubmed/6314140
+C0020649	D011942@inh_ENSP00000280155@inh_ENSP00000303199@inh_ENSP00000306662@inh_ENSP00000320944@inh_ENSP00000348729@inh	known SE of alpha blockers http://www.merck.com/mmhe/sec03/ch023/ch023c.html
+C0020649	D011943@inh_ENSP00000046967@inh	beta blocker can increase and decrease heart rate mice depending on the concentration http://www.ncbi.nlm.nih.gov/pubmed/19672458
+C0020651	D018340@inh_ENSP00000280155@inh_ENSP00000303199@inh_ENSP00000306662@inh_ENSP00000320944@inh_ENSP00000348729@inh	known SE of alpha blockers: Alpha1 blockers inhibit vasoconstriction normally initiated by the baroreceptor reflex upon postural change and the subsequent drop in pressure.	http://www.merckmanuals.com/home/sec03/ch023/ch023c.html
+C0021390	D011957@act_D017473@act_ENSP00000265572@act	opioid system plays role in IBD: http://www.ncbi.nlm.nih.gov/pubmed/17343284 agonists are predicted to alleviate IBD, but antagonists also do so http://www.ncbi.nlm.nih.gov/pubmed/18569389
+C0022346	D011954@inh_ENSP00000295881@inh	dopamine has been shown to increase liver blood flow, thus increasing liver function http://ats.ctsnetjournals.org/cgi/content/full/60/6/1741 http://www.ncbi.nlm.nih.gov/pubmed/20137821
+C0024586	ENSP00000261707	observed in SLC6A4 mutant mice http://www.ncbi.nlm.nih.gov/pubmed/18209729
+C0025160	D011957@act_D017473@act_ENSP00000265572@act	D017473@inh_ENSP00000265572@inh	opioids are used as antidiarrhoeal drugs http://www.ncbi.nlm.nih.gov/pubmed/8984506
+C0025218	D011960@act	known to be caused by activation of estrogen receptors	http://www.ncbi.nlm.nih.gov/pubmed/20337826
+C0025222	ENSP00000354612_ENSP00000186982@inh	related to ulcers
+C0026266	ENSP00000258400	HTR2B knockout mice have a variety of cardiac defects
+C0027424	D011941@inh_D018342@inh_ENSP00000046967@inh	adrenergic agonists are used as nasal decongestants	http://www.elmhurst.edu/~chm/vchembook/663adrenergic2.html
+C0029925	D011960@act	postmenopausal estrogen use for 10 or more years was associated with increased risk of ovarian cancer mortality that persisted up to 29 years after cessation of use. http://www.ncbi.nlm.nih.gov/pubmed/11255422
+C0030193	D044282@act_ENSP00000316244@act	D044282@inh_ENSP00000316244@inh	serotonin 1A receptors have been implicated in hyperalgesia, but serotonin has also analgesic effects. some agonists are hyperalgesic	http://jpet.aspetjournals.org/cgi/content/full/312/3/1034
+C0030312	ENSP00000354612_ENSP00000186982	PTGS knockout mice have abnormal platelet and blood phenotypes
+C0030920	ENSP00000354612	Inhibition of COX-1 has been linked to GI adverse effects	http://www.ncbi.nlm.nih.gov/pubmed/19680014
+C0032285	ENSP00000290866@inh	a mechanism for the contribution of inhibition of ACE has been proposed http://www.ncbi.nlm.nih.gov/pubmed/17082641
+C0032617	ENSP00000276198@inh	polyphagia is a phenotype of HTR2C mice, depletion of serotonin can lead to polydipsia http://books.google.com/books?hl=en&lr=&id=eUfVba3cjI4C&oi=fnd&pg=PA253&dq=polyuria+OR+polydipsia+serotonin+receptor&ots=lJzRMhcPN0&sig=zEs3f4astA_nooJHTDHQxnKYPNE#v=snippet&q=polydipsia&f=false
+C0033975	ENSP00000347474@act	dopamine blockers are used as anti-psychotics	http://www.williams.edu/imput/synapse/pages/IIIB5.htm
+?C0034063	D011943_D011943@inh_ENSP00000046967@inh	"Beta-blockers may cause cardiogenic pulmonary edema secondary to their negative inotropic and negative chronotropic effects." http://www.ncbi.nlm.nih.gov/pubmed/7633013
+C0034880	ENSP00000316244_D017660@act	HTR1A agonists influence auditory cortex	http://www.ncbi.nlm.nih.gov/pubmed/10633476
+C0035410	D047493	PPAR knockout mice have muscle abnormalities
+C0036572	ENSP00000262186	associated with seizures in Drosophila	http://www.ncbi.nlm.nih.gov/pubmed/8994043
+C0037763	D011957@act_ENSP00000328264@act	myoclonus are known SE of opioids http://www.ncbi.nlm.nih.gov/pubmed/18443635
+C0037763	D044282@act_D044282	HTR1A/7 agonist 8-OH-DPAT causes locomotor-like activity in quadriplegic mice	http://www.ncbi.nlm.nih.gov/pubmed/16836640
+C0037763	ENSP00000347474@inh	thought to be related to blockade of DRD2 while DRD1 is still more active	http://www.ncbi.nlm.nih.gov/pubmed/7969212
+!C0040822	D017448@inh	DRD activation elicits tremor in mice http://www.ncbi.nlm.nih.gov/pubmed/19720621
+C0038362	ENSP00000354612_ENSP00000186982	related to ulcers
+?C0038990	D011985_ENSP00000261707_ENSP00000289753_D044282@act	related to serotonin syndrome	http://qjmed.oxfordjournals.org/content/96/9/635.full http://www.ncbi.nlm.nih.gov/pubmed/15784664
+?C0039231	D011985_ENSP00000261707_ENSP00000289753	related to serotonin syndrome	http://qjmed.oxfordjournals.org/content/96/9/635.full http://www.ncbi.nlm.nih.gov/pubmed/15784664
+C0039231	ENSP00000219833@inh	Norepinephrine transporter-deficient mice exhibit excessive tachycardia http://www.ncbi.nlm.nih.gov/pubmed/15337696
+C0039231	ENSP00000348729@inh	Increased heart rate has been observed in ADRA2A mutant mice
+C0041582	ENSP00000354612	Inhibition of COX-1 has been linked to GI adverse effects	http://www.ncbi.nlm.nih.gov/pubmed/19680014
+C0042024	D011985_D011941_ENSP00000276198_ENSP00000276198@inh_ENSP00000320944@inh_ENSP00000348729@inh	antagonism of serotonin and adrenergic receptors have been implicated in urinary incontinence http://www.ncbi.nlm.nih.gov/pubmed/15302566
+C0042384	ENSP00000186982@inh	vasculitis has been associated with COX2 inhibitors http://www.ncbi.nlm.nih.gov/pubmed/11897288 , and PTG2 mutant mice show other inflammation phenotypes
+C0080274	ENSP00000255380_ENSP00000306490	muscarinic antagonists are used to treat bladder hyperactivity	http://www.ncbi.nlm.nih.gov/pubmed/11264473
+C0085602	ENSP00000306129@inh_ENSP00000289753@inh	polydipsia is a symptom of the observed phenotype: abnormal adrenal gland physiology
+C0085631	D011943@act_D018342@act_ENSP00000046967@act_D018343@act_ENSP00000305372@act_D022702@act_ENSP00000343782@act	opposite of calming effect of beta blockers
+C0085631	ENSP00000313661@act	known to influence locomotor activation 	http://www.ncbi.nlm.nih.gov/pubmed/8815958
+C0085682	ENSP00000311337@inh	hypophosphatemia occurs in FGF23 mutant mice, i.e. when a ligand of FGFR is absent. receptor inhibition should cause the same phenotype; FGFR1 mutant mice display bone abnormalities
+C0149741	D011960@act	exposure to estrogens can lead to nipple discharge http://www.ncbi.nlm.nih.gov/pubmed/6716192
+C0149931	ENSP00000206249@act	"Epidemiological, pathophysiological, and clinical evidence link estrogen to migraine headaches"	http://www.ncbi.nlm.nih.gov/pubmed/16622144
+C0151744	D044282@act_ENSP00000316244@act	D044282@inh_ENSP00000316244@inh	serotonin 1 rec. antagonists cause hypercontraction of coronary arteries	http://www.ncbi.nlm.nih.gov/pubmed/11238275
+C0151744	D044302_ENSP00000257763	D044402_ENSP00000261668	serotonin 1B rec. cause hypercontraction of coronary arteries	http://www.ncbi.nlm.nih.gov/pubmed/11238275
+C0151908	D011505_ENSP00000328213	tyrosine kinase inhibitors are known to cause dry skin http://www.ncbi.nlm.nih.gov/pubmed/17457301
+C0162297	D017450_D017450@act	respiratory arrest can be induced by mu opioid receptor agonists	http://www.ncbi.nlm.nih.gov/pubmed/17108160
+C0162529	ENSP00000316244@act	HTR1 activation causes vasospasm (which is part of the drug mechanism of action), but this can lead to ischemia	http://sideeffects.embl.de/labels/2003_-_03Oct_PI_-_Amerge_PI/C0162529/
+C0220870	D011957@act_ENSP00000265572@act	opioids are known to cause dizziness and lightheadedness	http://books.google.com/books?id=az8uSDkB0mgC&lpg=PA273&ots=fdL2bLbo7-&dq=opioid%20receptor%20dizziness&pg=PA273#v=onepage&q=n%20cause%20sedation,%20confusion,%20dizziness,%20and%20euphoria.&f=false
+C0235660	D011954@inh_ENSP00000347474@inh	linked to remove of dopaminergic prolactin inhibition http://books.google.com/books?id=vOQqyNhTDl0C&lpg=PA895&ots=LqXPl2j5_1&dq=gynecomastia%20dopamine&pg=PA896#v=onepage&q=gynecomastia%20dopamine&f=false http://www.ncbi.nlm.nih.gov/pubmed/11739329
+C0428977	D011943@inh_D018342@inh_ENSP00000046967@inh_D018342_ENSP00000046967_D018343@inh_ENSP00000305372@inh_D018343_ENSP00000305372_D022702@inh_ENSP00000343782@inh	beta blockers are known to slow heart rate and lead to bradycardia	http://www.ncbi.nlm.nih.gov/pubmed/11334782
+C0476089	ENSP00000206249_ENSP00000343925_ENSP00000206249@act_ENSP00000343925@act	endometrial carcinoma is linked to excessive estrogen concentrations http://www.ncbi.nlm.nih.gov/pubmed/1186789
+C0497247	D011943@act_D018342@act_ENSP00000046967@act_D018343@act_ENSP00000305372@act_D022702@act_ENSP00000343782@act	converse of hypotension caused by beta blockers
+C0497247	ENSP00000219833	Norepinephrine transporter-deficient mice exhibit elevated blood pressure http://www.ncbi.nlm.nih.gov/pubmed/15337696
+C0575081	D011985@inh_ENSP00000261707@inh	mutations in the serotonergic system lead to abnormal gait in mice	http://www.ncbi.nlm.nih.gov/pubmed/7984037
+C0575081	ENSP00000328968@inh	abnormal gait is a phenotype of SCN8A mutant mice
+C0686347	D011954@inh_D050637@inh_ENSP00000295881@inh_D050638@inh_ENSP00000176183@inh_ENSP00000295881@inh_ENSP00000327652@inh	known to be linked to dopamine antagonists	http://www.ncbi.nlm.nih.gov/pubmed/10881961
+C0699893	ENSP00000262925	RNA-mediated suppression of Fkbp1a increases tumor cell invasion http://www.ncbi.nlm.nih.gov/pubmed/14612567
+C1384666	ENSP00000354612@inh_ENSP00000186982@inh	cyclooxygenases are expressed in the ear http://www.ncbi.nlm.nih.gov/pubmed/15668527 and have been implicated in ototoxicity http://www.ncbi.nlm.nih.gov/pubmed/12736364
+C1510472	ENSP00000328264@act	drug dependence to opiates is well-known
+~C0003534	ENSP00000241946	part of the indication
+~C0011570	ENSP00000234961	text-mining error: "respiratory depression", not "mental depression"
+~C0027051	ENSP00000257763@act_ENSP00000313661@act_D044346@act	false positive due to identical warnings on triptan labels
+~C0027121	ENSP00000273430@inh	false positive due to identical warnings on sartan labels
+~C0038525	ENSP00000322924@act	false positive due to identical warnings on triptan labels
+~C0042510	ENSP00000257763@act_ENSP00000313661@act_D044346@act	false positive due to identical warnings on triptan labels
+~C0042514	ENSP00000257763@act_ENSP00000313661@act_D044346@act	false positive due to identical warnings on triptan labels
+~C0151744	ENSP00000257763@act_ENSP00000313661@act_D044346@act	false positive due to identical warnings on triptan labels
+~C0151786	ENSP00000273430@inh	false positive due to identical warnings on sartan labels
+~C0684343	ENSP00000241946	part of the indication
+

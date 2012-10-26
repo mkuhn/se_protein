@@ -1,0 +1,14 @@
+syntax: glob
+
+*pyc
+*bdb
+._*
+.project
+*~
+*bak
+.DS_Store
+*tsv
+*svg
+*old
+*html
+\#*\#

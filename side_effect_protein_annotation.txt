@@ -1,0 +1,126 @@
+Adenosine, Ad1			Bradycardia
+Adenosine, Ad1			atrioventricular block
+Adenosine, Ad1			Renal vasoconstriction
+Adenosine, Ad2a			Hypotension
+Adenosine, Ad2a			coronary vasodilation
+Adenosine, Ad2a			Facilitation of platelet aggregation
+Adenosine, Ad3		might	asthma
+Adenosine, Ad3		might	allergic conditions
+Adrenergic alpha, Al1a			Hypertension
+Adrenergic alpha, Al1a			positive inotropic effect
+Adrenergic alpha, Al1a			Orthostatic hypotension
+Adrenergic alpha, Al1b			Orthostatic hypotension
+Adrenergic alpha, Al2a		might	inhibit insulin secretion
+Adrenergic alpha, Al2a			hyperglycemia
+Adrenergic alpha, Al2a			heart failure
+Adrenergic alpha, Al2b			Hypertension
+Adrenergic alpha, Al2b			cardiac ischemia (block)
+Adrenergic alpha, Al2b			vasoconstriction of arteries
+Adrenergic alpha, Al2b			heart failure
+Adrenergic alpha, Al2b			reduces blood pressure
+Adrenergic alpha, Al2c			Hypertension
+Adrenergic alpha, Al2c			cardiac ischemia
+Adrenergic alpha, Al2c			Increased muscular blood flow
+Adrenergic alpha, Al2c			Increased skeletal blood flow
+Adrenergic beta, Beta1			Positive inotropic and chronotropic effects
+Adrenergic beta, Beta1			ventricular fibrillation
+Adrenergic beta, Beta1			bronchospasm
+Adrenergic beta, Beta1			impairs cardiovascular performance
+Adrenergic beta, Beta2			cardiac arrest
+Adrenergic beta, Beta2			bronchodilation
+Adrenergic beta, Beta2			bronchospasm
+Adrenergic beta, Beta2			impairs exercise stress cardiovascular performance
+Angiotensin II, AT1			Increases blood pressure
+Angiotensin II, AT1			Increases cell proliferation and migration
+Angiotensin II, AT1			Increases tubular Na+ resorption
+Bradykinin, B1			Enhances nociception
+Bradykinin, B1			inflammation
+Bradykinin, B1			vasodilation
+Bradykinin, B1			cough
+Bradykinin, B2			Enhances nociception
+Bradykinin, B2			inflammation
+Bradykinin, B2			vasodilatation
+Bradykinin, B2			cough
+Calcitonin gene-related peptide, CGRP			Hypocalcaemia
+Calcitonin gene-related peptide, CGRP			hypophosphatemia
+Ca channel type L, benzothiazepine			Hypotension
+Ca channel type L, phenylalkylamie			Hypotension
+Dopamine, D1			dyskinesia
+Dopamine, D1			extreme arousal
+Dopamine, D1			locomotor activation
+Dopamine, D1			vasodilatation
+Dopamine, D1			hypotension
+Dopamine, D1			Schizophrenia
+Dopamine, D1			neurodegeneration
+Dopamine, D1			coordination disorders
+Endothelin, ETa		might	vasoconstriction
+Endothelin, ETa			positive inotropy
+Endothelin, ETa			cell proliferation (e.g. smooth muscle and mesangial cells) and aldosterone secretion. 
+Endothelin ETb			Causes initial vasodepression
+Endothelin ETb			vasoconstriction
+Endothelin ETb			cell proliferation
+Endothelin ETb			bronchoconstriction
+Endothelin ETb			Vasodilatation
+Endothelin ETb			platelet aggregation
+Ghrelin, GHS			Energy homeostasis
+Ghrelin, GHS			GH release
+Ghrelin, GHS			effects on glucose homeostasis
+Ghrelin, GHS			cardiovascular effects
+Histamine, H3			Impairs memory
+Histamine, H3			sedation
+Histamine, H3			vasodilatation
+Histamine, H3			bronchodilation
+Histamine, H3			negative chronotropy
+Histamine, H3			reduces gastrointestinal motility
+Muscarinic, M1(h)			Vagal effects
+Muscarinic, M1(h)			blood pressure changes
+Muscarinic, M1(h)			secretory functions
+Muscarinic, M1(h)			Decreases gastric acid secretion
+Muscarinic, M2			Vagal effects
+Muscarinic, M2			blood pressure changes
+Muscarinic, M2			Tachycardia
+Muscarinic, M3			Vagal effects
+Muscarinic, M3			blood pressure changes
+Muscarinic, M3			salivation
+Muscarinic, M3			Reduces incontinence
+Muscarinic, M3			reduces bronchoconstriction
+Muscarinic, M3			reduces gastrointestinal motility
+Muscarinic, M3			Interferes with ocular accommodation
+Muscarinic, M3			dry mouth
+Muscarinic, M4			Vagal effects
+Muscarinic, M4			blood pressure changes
+Muscarinic, M4			Facilitation of D1 CNS stimulation
+NE transporter	Inhibitor		adrenergic hyperactivity
+NE transporter	Inhibitor		a1 adrenergic activation
+Nicotinic acetylcholine			Stimulates autonomic cardiovascular
+Nicotinic acetylcholine			Stimulates gastrointestinal functions
+Nicotinic acetylcholine			Palpitation
+Nicotinic acetylcholine			orthostatic hypotonia
+Nicotinic acetylcholine			nausea
+Nicotinic acetylcholine			sweating
+Nicotinic acetylcholine			muscle tremor
+Nicotinic acetylcholine			bronchial secretion
+Nicotinic acetylcholine			Effects on muscular and vegetative ganglionic functions
+NPY, Y1			causes vasoconstriction (venous)
+NPY, Y1			inhibits gut motility
+NPY, Y1			inhibits gastric emptying
+NPY, Y1			inhibits acid secretion
+NPY, Y1			inhibits pancreatic exocrine secretions
+NPY, Y1			Anxiogenic
+NPY, Y1			inhibits ischemic brain injury
+Potassium Ch (hERG)			QT interval (electrocardiogram) prolongation
+Potassium Ch [ATP]			Hypotension
+Potassium Ch [ATP]			Hypoglycemia
+Serotonin, 5-HT2b			Cardiac valvulopathy
+Serotonin, 5-HT4			Facilitates gastrointestinal transit
+Serotonin, 5-HT4			mechanical intestinal allodynia
+Sodium Ch (site 2)	Antagonist		cardiac arrhythmia
+Thromboxane a2 receptor, TP			vascular constriction
+Thromboxane a2 receptor, TP			bronchial constriction
+Thromboxane a2 receptor, TP			uterine constriction
+Thromboxane a2 receptor, TP			gastrointestinal spasm
+Thromboxane a2 receptor, TP			allergic inflammation
+Thromboxane a2 receptor, TP			platelet aggregation
+Vasopressin V1a			Vasopressor
+Vasopressin V1b			Vasopressor
+Vasopressin V1b			anxiogenic

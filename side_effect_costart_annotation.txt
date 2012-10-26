@@ -1,0 +1,100 @@
+a1 adrenergic activation	?
+adrenergic hyperactivity	C0085631	Psychomotor Hyperactivity
+allergic conditions	C0020517	Allergy
+allergic inflammation	C0020517	Allergy
+anxiogenic	C0003467	Anxiety
+asthma	C0004096	Asthma
+atrioventricular block	C0004245	Atrioventricular Block
+blood pressure changes	C0005826	Abnormal blood pressure
+bradycardia	C0428977	Bradycardia
+bronchial constriction	?
+bronchial secretion	?
+bronchoconstriction	?
+bronchodilation	?
+bronchospasm	C0006266	Bronchospasm
+cardiac arrest	C0018790	Cardiac Arrest
+cardiac arrhythmia	C0003811	Cardiac Arrhythmia
+cardiac arrhythmias	C0003811	Cardiac Arrhythmia
+cardiac ischemia	C0151744	Cardiac ischemia
+cardiac ischemia (block)	C0151744	Cardiac ischemia
+cardiac valvulopathy	C0018824	Cardiac valvulopathy
+cardiovascular effects	?
+causes initial vasodepression	C0020649	Hypotension
+causes vasoconstriction (venous)	?
+cell proliferation	?
+cell proliferation (e.g. smooth muscle and mesangial cells) and aldosterone secretion.	?
+coordination disorders	C0004134	Coordination Impairment
+coronary vasodilation	?
+cough	C0010200	Cough
+decreases gastric acid secretion	?
+dry mouth	C0043352	Dry Mouth
+dyskinesia	C0013384	Dyskinesia
+effects on glucose homeostasis	?
+effects on muscular and vegetative ganglionic functions	?
+energy homeostasis	?
+enhances nociception	C0030193	Pain
+extreme arousal	C0085631	Psychomotor Hyperactivity
+facilitates gastrointestinal transit	?
+facilitation of D1 CNS stimulation	?
+facilitation of platelet aggregation	?
+gastrointestinal spasm	?
+GH release	?
+heart failure	C0018801	Heart Failure
+hyperglycemia	C0020456	hyperglycemia
+hypertension	C0020538	Hypertension
+hypocalcaemia	C0020598	Hypocalcaemia
+hypoglycemia	C0020615	Hypoglycemia
+hypophosphatemia	C0085682	Hypophosphatemia
+hypotension	C0020649	Hypotension
+impairs cardiovascular performance	?
+impairs exercise stress cardiovascular performance	?
+impairs memory	C0751295	Memory Loss
+increased muscular blood flow	?
+increased skeletal blood flow	?
+increases blood pressure	C0497247	Increased blood pressure
+increases cell proliferation and migration	?
+increases tubular Na+ resorption	?
+inflammation	?
+inhibit insulin secretion	?
+inhibits acid secretion	?
+inhibits gastric emptying	?
+inhibits gut motility	?
+inhibits ischemic brain injury	?
+inhibits pancreatic exocrine secretions	?
+interferes with ocular accommodation	?
+locomotor activation	C0085631	Psychomotor Hyperactivity
+mechanical intestinal allodynia	?
+muscle tremor	C0040822	Tremor
+nausea	C0027497	Nausea
+negative chronotropy	?
+neurodegeneration	?
+orthostatic hypotension	C0020651	Orthostatic Hypotension
+orthostatic hypotonia	C0020651	Orthostatic Hypotension
+palpitation	C0030252	Palpitation
+platelet aggregation	?
+positive inotropic and chronotropic effects	?
+positive inotropic effect	?
+positive inotropy	?
+QT interval (electrocardiogram) prolongation	C0042514	Ventricular Tachycardia
+reduces blood pressure	C0020649	Hypotension
+reduces bronchoconstriction	?
+reduces gastrointestinal motility	?
+reduces incontinence	?
+renal vasoconstriction	?
+salivation	C0037036	Increased salivation
+schizophrenia	C0036341	Schizophrenia
+secretory functions	?
+sedation	?
+stimulates autonomic cardiovascular	?
+stimulates gastrointestinal functions	?
+sweating	C0038990	Sweating
+tachycardia	C0039231	Tachycardia
+uterine constriction	?
+vagal effects	?
+vascular constriction	?
+vasoconstriction	?
+vasoconstriction of arteries	?
+vasodilatation	C0020649	Hypotension
+vasodilation	C0020649	Hypotension
+vasopressor	?
+ventricular fibrillation	C0042510	Ventricular Fibrillation
