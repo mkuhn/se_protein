@@ -48,7 +48,7 @@ mouse_se.tsv: /home/mkuhn/data/mgi/mouse_se.tsv valid_targets valid_side_effects
 	grep -f valid_targets $< | grep -f valid_side_effects > $@
 
 protein_se_pv.tsv: interactions.tsv side_effects.tsv
-	echo "Compute side effects!"
+	echo "Compute side effects using se_fisher.R on desktop computer!"
 	test protein_se_pv.tsv -nt interactions.tsv
 	test protein_se_pv.tsv -nt side_effects.tsv
 
