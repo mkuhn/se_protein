@@ -18,6 +18,11 @@ def main():
 
     se2name = {}
 
+    threshold = 5
+
+    if "cutoff2" in os.getcwd():
+        threshold = 2
+
     for line in sys.stdin:
         (cid, _, concept, drug, name) = line.strip("\n").split("\t")
 
@@ -34,7 +39,7 @@ def main():
 
     for concept, drugs in ses.items():
 
-        if len(drugs) < 5:
+        if len(drugs) < threshold:
             continue
 
         cids2concepts[ tuple(sorted(drugs)) ].append(concept)

@@ -15,7 +15,7 @@ re_clean_targets = re.compile(r"(ENSP\d+)")
 
 def load_se2protein(cutoff):
     
-    se2protein = defaultdict(list)
+    se2protein = defaultdict(dict)
     
     fh_in = open("protein_se_pv.tsv")
     fh_in.next()
@@ -29,7 +29,7 @@ def load_se2protein(cutoff):
         if qv >= cutoff:
             continue
         
-        se2protein[se].append(protein)
+        se2protein[se][protein] = qv
 
     print >> sys.stderr, "Number of SE with q-values:", len(se2protein)
 
@@ -93,7 +93,7 @@ def load_main_targets():
         (protein, _chemical) = line.strip("\n").split("\t")
         chemical = int(_chemical[3:])
         drug2main_targets[chemical].append(protein)
-            
+    
     return drug2main_targets
             
             
@@ -235,51 +235,7 @@ def load_drug_protein_mapping():
     return protein_drug_proteins
     
 
-def merge_redundant_proteins(l, merging_cache = {}):
-    """
-    >>> merge_redundant_proteins(["ENSP1", "ENSP2", "ENSP3"])
-    3
-    >>> merge_redundant_proteins(["ENSP1_ENSP2", "ENSP2", "ENSP3"])
-    2
-    >>> merge_redundant_proteins(["ENSP1_ENSP2_ENSP3", "ENSP2", "ENSP3"])
-    1
-    >>> merge_redundant_proteins(["ENSP1_ENSP2", "ENSP2_ENSP3", "ENSP3"])
-    1
-    >>> merge_redundant_proteins(['ENSP00000000442_ENSP00000252542_ENSP00000261532_ENSP00000292123_ENSP00000339587_ENSP00000354584', 'D047629@act_ENSP00000343925@act', 'ENSP00000000442@act_ENSP00000252542@act_ENSP00000261532@act_ENSP00000292123@act_ENSP00000339587@act_ENSP00000354584@act'])
-    2
-    """
-
-    c = merging_cache.get(tuple(l))
-    if c is not None: return c
-    
-    clusters = [ set(re_clean_targets.findall(s)) for s in l ]
-    
-    n = 0
-    
-    while len(clusters) != n:
-        
-        n = len(clusters)
-        new_clusters = []
-        
-        for i in range(len(clusters)):
-            current = clusters[i]
-            if current is None: continue
-            new_clusters.append(current)
-            for j in range(i+1,len(clusters)):
-                if clusters[j] is not None and current.intersection(clusters[j]):
-                    # print >> sys.stderr, "Merge", current, clusters[j]
-                    
-                    current.update(clusters[j])
-                    clusters[j] = None
-        
-        clusters = new_clusters
-    
-    merging_cache[tuple(l)] = n
-
-    return n
-
-
-def calc(se2drugs, se2proteins, drug2proteins, drug_set, se_set, prefix, fh_out, se_with_explanations):
+def calc(se2drugs, se2proteins, drug2proteins, drug2all_proteins, drug_set, se_set, prefix, fh_out, se_with_explanations, max_qv_ratio):
     
     store_se_with_explanations = se_with_explanations is not None and len(se_with_explanations) == 0
 
@@ -297,7 +253,6 @@ def calc(se2drugs, se2proteins, drug2proteins, drug_set, se_set, prefix, fh_out,
         if se not in se_set: 
             continue
 
-
         assert drugs
 
         n_se += 1
@@ -306,7 +261,7 @@ def calc(se2drugs, se2proteins, drug2proteins, drug_set, se_set, prefix, fh_out,
         n_drugs_in_set = 0
         
         se_proteins = se2proteins[se]
-        
+
         l = []
         
         for drug in drugs:
@@ -315,10 +270,21 @@ def calc(se2drugs, se2proteins, drug2proteins, drug_set, se_set, prefix, fh_out,
             n_drugs_in_set += 1
             total_se_drug_pairs += 1
 
-            explaining_proteins = [ protein for protein in drug2proteins.get(drug, ()) if protein in se_proteins ]
-            n_explaining_proteins = merge_redundant_proteins( explaining_proteins )
+            all_drug_proteins = drug2all_proteins.get(drug, set())
+            drug_proteins = drug2proteins.get(drug, ())
 
-            if n_explaining_proteins:
+            all_explaining_proteins = all_drug_proteins.intersection(se_proteins)
+
+            if not all_explaining_proteins: continue
+
+            min_qv = min( se_proteins[protein] for protein in all_explaining_proteins )
+
+            qv_threshold = min_qv * max_qv_ratio
+
+            explaining_proteins = [ protein for protein in all_explaining_proteins if se_proteins[protein] <= qv_threshold and protein in drug_proteins ]
+
+            if explaining_proteins:
+
                 explained_se_drug_pairs.append( (se, drug) )
                 n_explained += 1
                 
@@ -336,10 +302,6 @@ def calc(se2drugs, se2proteins, drug2proteins, drug_set, se_set, prefix, fh_out,
             
             if n_explained * 2 >= n_drugs_in_set:
                 n_explained_se_half += 1
-        
-            
-            
-                
                 
     return (explained_se_drug_pairs, total_se_drug_pairs, n_explained_se_one, n_explained_se_half, n_se)
         
@@ -363,23 +325,6 @@ def main():
 
     n_jobs = 1
     this_job = 0
-
-    if "submit" in sys.argv:
-        submit()
-        return
-    elif len(sys.argv) == 3:
-        n_jobs = int(sys.argv[2])
-        this_job = int(sys.argv[1])
-
-
-    bins = (
-        # ("all", "LOW BIN1 BIN2 BIN3 HIGH"),
-        ("all", "BIN1 BIN2 BIN3 HIGH"),
-        ("rare", "BIN1"),
-        ("average", "BIN2"),
-        ("frequent", "BIN3"),
-        # ("excl low/high", "BIN1 BIN2 BIN3"),
-    )
 
     # the first line for each protein / drug requirement should be the one to base "explained SE" on
     # -> : use protein requirement as drug requirement
@@ -422,6 +367,9 @@ main targets	off-targets
         assert len(l.split("\t")) == 2
 
 
+    protein_drug_proteins = load_drug_protein_mapping()
+    drug2all_proteins = protein_drug_proteins["non-metabolizing proteins"]
+
     # for cutoff in (0.01, 0.05):
     for cutoff in (0.01,):
 
@@ -433,11 +381,8 @@ main targets	off-targets
     
         se_with_explanations = {}
     
-        last_drug_requirement = None
-
         se2drugs = load_se2drugs()
 
-        fh_drug_count = open("/g/bork8/mkuhn/data/se_protein/drug_counts.%g.tsv" % cutoff, "w") if this_job == 0 else None
         # go through each type of analysis
         for l in to_analyze.strip().split("\n"):
 
@@ -445,44 +390,31 @@ main targets	off-targets
 
             (drug_requirement, protein_requirement) = l.split("\t")
 
-            if drug_requirement == "->":
-                drug_requirement = protein_requirement
-
-            protein_drug_proteins = load_drug_protein_mapping()
-
             if protein_requirement not in protein_drug_proteins:
                 print >> sys.stderr, "don't know drug-protein mapping for: %s, skipping!" % protein_requirement
                 continue
 
-
             drug2proteins = protein_drug_proteins[protein_requirement]
-
             drug_set = set( protein_drug_proteins[drug_requirement] )
 
-            drug_blacklist = set( int(s) for s in open("hobohm_remove_list.txt") )
-            drug_set = drug_set.difference(drug_blacklist) 
-
-            if last_drug_requirement != drug_requirement:
-                last_drug_requirement = drug_requirement
-
             print >> sys.stderr, "number of drugs with", drug_requirement, "=", len(drug_set)
-        
-            if fh_drug_count:
-                print >> fh_drug_count, "%s\t%d" % (drug_requirement, len(drug_set))
-
-            prefix = ""
-            current_se_with_explanations = set()
             
-            prefix = "\t".join( (drug_requirement, protein_requirement) )
-            
+            for x in range(0,1000):
 
+                log10_max_qv_ratio = x / 10
+                max_qv_ratio = 10**log10_max_qv_ratio
 
-            explained_se_drug_pairs, total_se_drug_pairs, n_explained_se_one, n_explained_se_half, n_se = calc(se2drugs, se2proteins, drug2proteins, drug_set, se_set, prefix, fh_all_se, current_se_with_explanations)
+                prefix = ""
+                current_se_with_explanations = set()
+                
+                prefix = "\t".join( (drug_requirement, protein_requirement) )
 
-            assert "C0018681" not in current_se_with_explanations
-            assert current_se_with_explanations
+                explained_se_drug_pairs, total_se_drug_pairs, n_explained_se_one, n_explained_se_half, n_se = calc(se2drugs, se2proteins, drug2proteins, drug2all_proteins, drug_set, se_set, prefix, fh_all_se, current_se_with_explanations, max_qv_ratio)
 
-            print >> fh_results, "\t".join( map(str, (drug_requirement, protein_requirement, len(explained_se_drug_pairs), total_se_drug_pairs, n_explained_se_one, n_explained_se_half, n_se, ) ) )
+                assert "C0018681" not in current_se_with_explanations
+                assert current_se_with_explanations
+
+                print >> fh_results, "\t".join( map(str, (log10_max_qv_ratio, drug_requirement, protein_requirement, len(explained_se_drug_pairs), total_se_drug_pairs, n_explained_se_one, n_explained_se_half, n_se, ) ) )
     
 
 

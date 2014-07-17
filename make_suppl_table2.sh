@@ -1,0 +1,1 @@
+sed 's|PMID0*|http://www.ncbi.nlm.nih.gov/pubmed/|' < /home/mkuhn/src/se_protein/se_annotation.tsv | grep caused | awk -F '\t' '{ printf "%s\t%s\t%s\t%s\t%s\t%s\n", $3, $4, $1, $2, $6, $7 }' | sort -f > suppl2.tsv

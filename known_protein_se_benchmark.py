@@ -275,6 +275,11 @@ def load_whitebread_data(print_full):
 
     se_protein_pairs = list(se_protein_pairs)
 
+    fh_out = open("whitebread.tsv", "w")
+    for (s, p, _, _, _) in se_protein_pairs:
+        print >> fh_out, s+"\t"+p
+
+
     print >> sys.stderr, "Loaded", len(se_protein_pairs), "se-protein-pairs for Whitebread data"
 
     return se_protein_pairs, p2pn, s2sn
@@ -314,6 +319,11 @@ def load_annotated_data(rx):
 
     print >> sys.stderr, "Loaded", len(se_protein_pairs), "se-protein-pairs for regex", rx
     
+    if rx == r"^caused":
+        fh_out = open("caused.tsv", "w")
+        for (s, p, _, _, _) in se_protein_pairs:
+            print >> fh_out, s+"\t"+p
+
     
     return se_protein_pairs, p2pn, s2sn
 
@@ -470,6 +480,9 @@ def load_general_info():
     
 
 def main():
+
+    load_annotated_data(rx = r"^caused" )
+    sys.exit("adsfasdgqergeq")
 
     import doctest
     doctest.testmod()

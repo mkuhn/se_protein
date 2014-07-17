@@ -29,7 +29,7 @@ C0020651	ENSP00000276198	serotonin 2 receptors have been implicated in hypotensi
 ?C0030446	ENSP00000255380 ENSP00000409378	muscarinic agonists are used to treat ileus	http://www.ncbi.nlm.nih.gov/pubmed/19884293
 .C0221185	ENSP00000300900	cause not known
 *C0553548	ENSP00000300900	"Systemic hypersensitivity reactions include vasculitis and necrotizing angiitis." (furosemide label)
--C0027849	ENSP00000261707@inh	caused via dopaminergic mechanisms (which have also a lower p-value)
+-C0027849	ENSP00000261707@inh	caused via dopaminergic mechanisms
 -C0085605	ENSP00000354612 ENSP00000354612@inh ENSP00000356438@inh	unspecific hepatotoxic effect not related to primary target
 .C0152198	ENSP00000261707 ENSP00000261707@inh	cause not known
 *C0002878	ENSP00000356438 ENSP00000356438@inh ENSP00000354612 ENSP00000354612@inh	thought to be a hypersensitivity reaction	http://www.ncbi.nlm.nih.gov/pubmed/3547002

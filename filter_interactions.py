@@ -16,6 +16,11 @@ def main():
     
     protein_names = {}
 
+    threshold = 5
+
+    if "cutoff2" in os.getcwd():
+        threshold = 2
+
     for line in open("protein_names"):
         (protein_id, protein_name, desc) = line.strip("\n").split("\t")
         protein_names[protein_id] = (protein_name, desc)
@@ -48,7 +53,7 @@ def main():
 
         count = len(cids)
 
-        if count < 5:
+        if count < threshold:
             continue
 
         cids2protein[ tuple(sorted(cids)) ].append(protein)
@@ -61,7 +66,7 @@ def main():
     for cids, proteins in cids2protein.items():
         protein = "_".join(proteins)
         for cid in cids:
-            print(protein, cid, sep="\t")
+            print(cid, protein, sep="\t")
 
 
 

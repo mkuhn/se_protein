@@ -1,6 +1,7 @@
 library(plyr)
 # library(reshape2)
 library(hash)
+library(ggplot2)
 
 # source("http://bioconductor.org/biocLite.R")
 # biocLite("qvalue")
@@ -8,6 +9,7 @@ library(hash)
 library(qvalue)
 
 setwd("/Volumes/xi.embl.de/g/bork8/mkuhn/data/se_protein")
+setwd("/Volumes/xi.embl.de/g/bork8/mkuhn/data/se_protein/se_protein.cutoff2")
 
 drug_protein <- read.table("interactions.tsv", as.is=TRUE, sep="\t", quote="")
 names(drug_protein) <- c("drug", "protein")
@@ -19,7 +21,7 @@ drug_se <- read.table("side_effects.tsv", as.is=TRUE, sep="\t", quote="")
 names(drug_se) <- c("drug", "se", "drug_name", "se_name")
 
 se_freq <- count(drug_se$se)
-colnames(se_freq) <- c("se", "protein_freq")
+colnames(se_freq) <- c("se", "se_freq")
 
 counts_per_protein <- ddply(drug_protein, .(protein), function(df) nrow(df))
 counts_per_protein <- hash( counts_per_protein$protein, counts_per_protein$V1 )
@@ -56,10 +58,19 @@ protein_se_pv$q <- q$qvalues
 
 write.table(protein_se_pv, file="protein_se_pv.tsv", quote=F, sep="\t", row.names=F)
 
-# protein_se_pv <- merge(protein_se_pv, se_freq)
-# protein_se_pv <- merge(protein_se_pv, protein_freq)
-# 
-# min_pv_per_se <- ddply(protein_se_pv, .(se), summarise, min_p = min(p), se_freq = min(se_freq))
-# ggplot(min_pv_per_se, aes(se_freq, min_p)) + geom_point() + scale_y_log10() + scale_x_log10()
-# min_pv_per_protein <- ddply(protein_se_pv, .(protein), summarise, min_p = min(p), protein_freq = min(protein_freq))
-# ggplot(min_pv_per_protein, aes(protein_freq, min_p)) + geom_point() + scale_y_log10() + scale_x_log10()
+###
+
+protein_se_pv <- read.table("protein_se_pv.tsv", quote="", sep="\t", header=T)
+
+protein_se_pv <- merge(protein_se_pv, se_freq)
+protein_se_pv <- merge(protein_se_pv, protein_freq)
+
+min_pv_per_se <- ddply(protein_se_pv, .(se), summarise, min_p = min(p), min_q = min(q), se_freq = min(se_freq))
+min_pv_per_se.se <- ddply(min_pv_per_se, .(se_freq, min_q), summarise, point_count = length(se))
+
+ggplot(min_pv_per_se.se, aes(se_freq, min_q, size=point_count)) + geom_point() + scale_y_log10(breaks=c(1e-15, 1e-10, 1e-5, 0.01, 1)) + scale_x_log10(breaks=c(2,5,20,100,500)) + xlab("Number of drugs per side effect") + ylab("Best q-value per side effect") + scale_size_area(max_size=20, breaks=c(1,10,50,100,200), name="Number of side effects\nwith same best q-value")  # + theme(legend.justification=c(1,0), legend.position=c(1,0))
+
+min_pv_per_protein <- ddply(protein_se_pv, .(protein), summarise, min_p = min(p), min_q = min(q), protein_freq = min(protein_freq))
+min_pv_per_protein.protein <- ddply(min_pv_per_protein, .(protein_freq, min_q), summarise, point_count = length(protein))
+
+ggplot(min_pv_per_protein.protein, aes(protein_freq, min_q, size=point_count)) + geom_point()+ scale_y_log10(breaks=c(1e-15, 1e-10, 1e-5, 0.01, 1)) + scale_x_log10(breaks=c(2,5,20,100))+ xlab("Number of drugs per target") + ylab("Best q-value per target") + scale_size_area(max_size=20, breaks=c(1,10,50,100,200), name="Number of targets\nwith same best q-value") # + theme(legend.justification=c(1,0), legend.position=c(1,0))

@@ -24,7 +24,8 @@ def main():
         "GO:0004930" : "GPCR",
         "GO:0005216" : "ion channel",
         # "GO:0004888"
-        "GO:0003824" : "non-kinase enzyme"
+        "GO:0003824" : "non-kinase enzyme",
+        "GO:0022857" : "transmembrane transporter",
     }
     
     annotations = defaultdict(lambda : defaultdict(int))

@@ -177,8 +177,12 @@ def main():
     for line in os.popen("cat pred.%s.se_protein_known.all.txt" % fn):
         (known, pvalue, sn, pn, s, p, reason)  = line.strip("\n").split("\t")
         
-        if p.split("@")[0] in protein_blacklist:
+        _p = p.split("@")[0]
+        if _p in protein_blacklist:
             continue
+
+        # if _p in metabolizing_proteins:
+        #     continue
 
         # if do_only and "inh" not in p: continue
         # if s != "C0039231": continue
